@@ -1,1 +1,24 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,219,45,0.9671218829328606) 73%) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font: 16px 'New Tegomin', serif; 
+}
+
+button:focus {
+    outline: 0;
+}
+
+button, input {
+    font: 15px 'New Tegomin', serif, bold; 
+    text-align: center;
+}
+ul {
+    list-style-type: circle ;
+}
+
+

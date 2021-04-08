@@ -1,0 +1,45 @@
+.title {
+    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center; 
+}
+ 
+input[type=text] {
+    width: 30%;
+    padding: 15px 22px;
+    margin: 10px 5px;
+    margin-right: 50px;
+    border-radius: 30px;
+    border: none;
+}
+
+.input-text:focus {
+    outline: 3px solid transparent;
+  }
+
+.add-button {
+    width: 10%;
+    padding: 15px 22px;
+    margin: 10px 5px;
+    background-color:#22c1c3;
+    border-radius: 30px;
+    border: none;
+}
+
+.list-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+}
+ 
+.list-button {
+    margin-left: 50px;
+    padding: 15px 22px;
+    background-color:#22c1c3;
+    border-radius: 30px;
+    border: none;
+}
+
